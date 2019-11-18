@@ -1,0 +1,102 @@
+<!-- LOGIN - NEIL MANSON (1712991) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Login</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.banner {
+   		background-image: url("assets/images/mainbanner.jpg");
+    	background-repeat: no-repeat;
+    	background-position: center top;
+    	margin-top: 20px;
+    	overflow: hidden;
+		}
+		form{
+			align-content:center;
+			text-align:center;
+			padding:10%;
+			margin-top:5%;
+			margin-bottom:5%;
+			background-color:lightgray;
+			border-style: solid;
+		}
+		input{
+ 			width: 100%;
+  			padding: 12px 20px;
+ 			margin: 8px 0;
+  			display: inline-block;
+  			border: 1px solid;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+		}
+		
+	</style>
+</head>
+<body>
+
+<!-- HEADER START -->
+<header>
+	<div class="banner">
+		<img src="assets/images/RGUFilmLogo.jpg" alt="RGU Film Society" id="RGUFilmLogo">
+		<a href="https://twitter.com/rgufilmfestival" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/rgufilmfestival/" class="fa fa-instagram"></a>
+		<a href="https://www.facebook.com/rgufilm" class="fa fa-facebook"></a>
+	</div>
+	<!-- NAV BAR START -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="WhatsOn.html">What's on?</a></li>
+			<li><a href="EventCalendar.html">Event calendar</a></li>
+			<li><a href="GALLERY.html">Image gallery</a></li>
+			<li><a href="FilmFestival.html">Film festival</a></li>
+			<li><a href="RecommendedFilms.html">Recommended films</a></li>
+			<li><a href="GENRE.html">Genres</a></li>
+			<li><a href="CurrentMembersPage.html">Current members</a></li>
+			<li><a href="ContactUs.html">Contact us</a></li>
+			<li><a class="active" href="LoginPage.html">Login</a></li>
+		</ul>
+		
+	</nav>
+	<!-- NAVIGATION END -->
+</header>
+<!-- HEADER END -->
+
+
+<!-- MAIN START -->
+<main class="grid-container">
+<!--Loging Form Start-->
+<form action="CurrentMembersPage.html">
+	<label for="email">Email:</label>
+	<input type="text" placeholder="Enter Email" name="email" value=""/>
+
+	<label for="password">Password:</label>
+	<input type="password" placeholder="Enter Password" name="password" value=""/>
+
+	<button id="loginbutton" type="submit" onclick='document.getElementById("login").innerHTML = "Login Successful"'>Login</button>
+
+	<label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me</label>         
+
+	<button id ="forgottenpasswordbutton" type="button" onclick='document.getElementById("forgotten password").innerHTML = "A password reset email has been sent to your email address"'>Forgotten password</button>
+
+	<p id="login"></p>
+	<p id="forgotten password"></p>
+	<!--Login Form End-->
+</form>
+	<!-- MAIN SECTION END -->
+	
+</main>
+<!-- MAIN END -->
+
+
+<!--FOOTER START -->
+<footer>
+	<p>(c)The RGU Film Society 2019</p>
+</footer>
+<!-- FOOTER END -->
+
+</body>
+</html>

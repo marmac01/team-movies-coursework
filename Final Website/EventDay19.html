@@ -1,0 +1,198 @@
+<!-- EVENT CALENDAR - MICHAEL MACKAY (1906573) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Event Calendar</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        b {
+            font-size: 30px; 
+            font-family: 'roboto', verdana;
+        }
+        .banner {
+            background-image: url("assets/images/belmont.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .eventimg{
+            width: 100px;
+            float:left;
+            margin-right: 10px;
+        }
+
+        /* CARDS */
+        .card {
+            box-shadow: 0 4px 8px 0 #00000033;
+            width: 40%;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .cardtext {
+            padding: 2px 16px;
+        }
+        #card1 {
+            float:left;
+            margin-left: 15px;
+        }
+        #card2 {
+            float:left;
+            margin-left: 50px;
+        }
+
+        /* CALENDAR */
+        table {
+            display:table;
+            border-collapse: separate;
+            width: 100%;
+        }
+        th, td {
+            text-align: center;
+            padding: 2%;
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2dc}
+        tr:nth-child(odd){background-color: #ffb788}
+
+        th {
+            background-color: #ff841f;
+            color: white;
+        }
+
+        table a:link, a:visited {
+        background-color: #466ab8;
+        color: white;
+        padding: 7px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+        table a:hover, a:active {
+        background-color: #3B5998;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- LOGO, BANNER IMAGE AND SOCIAL WIDGETS -->
+        <div class="banner">
+            <img src="assets/images/RGUFilmLogo.jpg" alt="RGU Film Society" id="RGUFilmLogo">
+            <a href="https://twitter.com/rgufilmfestival" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/rgufilmfestival/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/rgufilm" class="fa fa-facebook"></a>
+        </div>
+        
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WhatsOn.html">What's on?</a></li>
+                <li><a class="active" href="EventCalendar.html">Event calendar</a></li>
+                <li><a href="GALLERY.html">Image gallery</a></li>
+                <li><a href="FilmFestival.html">Film festival</a></li>
+                <li><a href="RecommendedFilms.html">Recommended films</a></li>
+                <li><a href="GENRE.html">Genres</a></li>
+                <li><a href="CurrentMembersPage.html">Current members</a></li>
+                <li><a href="ContactUs.html">Contact us</a></li>
+                <li><a href="LoginPage.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+
+        <section class="grid-40">
+            <!-- EVENT INFO -->
+            <div class="block" style="margin-bottom: 20px">
+                <div id="eventinfo">
+                    <b>The Irishman</b>
+                    <h4>Tuesday 19th November</h4>
+                    <img src="assets/images/irish.jpg" alt="The Irishman" class="eventimg">
+                    <p>"It's a cinematic tour de force in form and substance, representing late-career high points for director Scorsese and his lead actors Robert De Niro, Al Pacino and Joe Pesci." - The Toronto Star</p>
+                    <p>Join us for a screening of #TheIrishman</p>        
+                </div>            
+                <p>Find us at Belmont Filmhouse:</p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.3992933834325!2d-2.10425044823563!3d57.14733138085568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e23345b0d33%3A0x305597876dcfa693!2sBelmont%20Filmhouse!5e0!3m2!1sen!2suk!4v1573692837115!5m2!1sen!2suk" width="360" height="210" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+            </div> 
+        </section>
+
+        <aside class="grid-60">
+            <!-- CALENDAR -->
+            <div class="block">
+                <b>November, 2019</b>
+                <table>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                    <tr>
+                        <td style="color: #8b8b8b;">28</td>
+                        <td style="color: #8b8b8b;">29</td>
+                        <td style="color: #8b8b8b;">30</td>
+                        <td style="color: #8b8b8b;">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td><a href="EventDay8.html" style="font-size: 20px;">8</a></td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td><a href="EventCalendar.html" style="font-size: 20px;">14</a></td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td><a href="EventDay19.html" style="font-size: 20px;">19</a></td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td><a href="EventDay30.html" style="font-size: 20px;">30</a></td>
+                        <td style="color: #8b8b8b;">1</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>(c)The RGU Film Society 2019
+    </footer>
+
+</body>        
+
+</html>

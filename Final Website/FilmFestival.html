@@ -1,0 +1,192 @@
+<!-- FILM FESIVAL - MICHAEL MACKAY (1906573) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Film Festival</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        /* FONT */
+        b {
+            font-size: 30px; 
+            font-family: 'roboto', verdana;
+        }
+
+        /* IMAGES */
+        .banner {
+            background-image: url("assets/images/RGUFF.png");
+            background-repeat: no-repeat;
+            background-position: center top;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .poster{
+            width: 200px;
+        }
+
+        /* CARDS */
+        .card {
+            box-shadow: 0 4px 8px 0 #00000033;
+            width: 40%;
+            border-radius: 5px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .cardtext {
+            padding: 2px 16px;
+        }
+        #card1 {
+            float:left;
+            margin-left: 15px;
+        }
+        #card2 {
+            float:left;
+            margin-left: 50px;
+        }
+
+        /* BLOCKS */
+        .block {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        title{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        section{
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- LOGO, BANNER IMAGE AND SOCIAL WIDGETS -->
+        <div class="banner">
+            <img src="assets/images/RGUFilmLogo.jpg" alt="RGU Film Society" id="RGUFilmLogo">
+            <a href="https://twitter.com/rgufilmfestival" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/rgufilmfestival/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/rgufilm" class="fa fa-facebook"></a>
+        </div>
+
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WhatsOn.html">What's on?</a></li>
+                <li><a href="EventCalendar.html">Event calendar</a></li>
+                <li><a href="GALLERY.html">Image gallery</a></li>
+                <li><a class="active" href="FilmFestival.html">Film festival</a></li>
+                <li><a href="RecommendedFilms.html">Recommended films</a></li>
+                <li><a href="GENRE.html">Genres</a></li>
+                <li><a href="CurrentMembersPage.html">Current members</a></li>
+                <li><a href="ContactUs.html">Contact us</a></li>
+                <li><a href="LoginPage.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+    <!-- (All article info from rgufilmfestival.com) -->
+
+        <section class="grid-66">
+
+            <!-- INTRO - ABOUT THE FESTIVAL -->
+            <div class="block">
+                <b>The Festival</b>
+                <p>RGU FILM FESTIVAL is an international short film festival taking place annually in Aberdeen, Scotland.
+                The RGU Film Festival is all about showing that there is more to cinema than Hollywood.
+                Another year of this amazing event has been and gone! We thank Belmont Filmhouse for hosting us yet again and all those who came along to enjoy the 20 films we had to show!
+                Over 100 films were submitted to us and these were all judged by members of RGU Film Society.</p>
+            </div>
+
+            
+            <!-- 2019 FESTIVAL WINNERS -->
+            <div class="block">
+                <div id="title">
+                    <b>Winners: 2019</b>
+                </div>
+                
+                <div class="card" id="card1">
+                    <img src="assets/images/turningtide.jpg" alt="Turning Tide Poster" style="width:100%; border-radius: 5px 5px 0 0;">
+                    <div class="cardtext">
+                        <h4>Winner of Best Non-Student Film & Best Film:</h4>
+                        <h3>Turning Tide</h3> 
+                        <p>by Andrew Muir</p> 
+                    </div>
+                </div>
+
+                <div class="card" id="card2">
+                    <img src="assets/images/balance.jpeg" alt="Balance Poster" style="width:100%; border-radius: 5px 5px 0 0;">
+                    <div class="cardtext">
+                        <h4>And Winner of Best Student Film:</h4>
+                        <h3>Balance</h3> 
+                        <p>by Raymond Limantara Sutisna</p> 
+                    </div>
+                </div>
+            </div>    
+
+            <!-- ALL OTHER ENTRIES -->
+            <div class="block" id="otherfilms">
+                <h3>Congratulations to all the filmmakers whose films were selected to be shown in the festival. The films were as follows:</h3>
+                <ul>
+                    <b>Student Films</b>
+                    <li>Der Letze Seiner Art</li>
+                    <li>Balance</li>
+                    <li>Der Nachste Bitte</li>
+                    <li>Rocco</li>
+                    <li>Nuclear Shadows</li>
+                </ul>
+
+                <ul>
+                    <b>Non-Student Films</b>
+                    <li>In Pieces</li>
+                    <li>Drei Tage in Berlin</li>
+                    <li>Thailand Inspiration</li>
+                    <li>The Lake -AC10</li>
+                    <li>Idol</li>
+                    <li>The Hacked Mind</li>
+                    <li>How It Feels to Be Hungover</li>
+                    <li>Relicious</li>
+                    <li>Kuchenhimmel</li>
+                    <li>Turning Tide</li>
+                    <li>Gelato – Seven Summers of Ice Cream Love</li>
+                    <li>Skógafoss</li>
+                    <li>Revenant Relocation Officers</li>
+                    <li>2nd Class</li>
+                    <li>Sonata</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="grid-33">
+
+            <!-- TWITTER FEED -->
+            <div class="block">
+                <h3>RGUFF on Twitter</h3>
+                <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/RGUFilmFestival?ref_src=twsrc%5Etfw">Tweets by RGUFilmFestival</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>              
+
+            <!-- FACEBOOK FEED -->
+            <div class="block">
+                <h3>RGUFF on Facebook</h3>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frgufilmfestival%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>(c)The RGU Film Society 2019
+    </footer>
+
+</body>
+</html>
